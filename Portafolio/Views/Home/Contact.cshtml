@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["title"] = "Contacto";
+}
+
+<flash dismissable="true" />
+
+<div class="container container-small">
+    <div class="text-center">
+        <h1>Contact Me</h1>
+        <p>Here you can send me a direct message to my email</p>
+    </div>
+    <form asp-action="Contact" asp-controller="Home">
+        <div class="mb-4">
+            <label for="representativeName" class="form-label">Representative Name</label>
+            <input type="text" class="form-control" id="representativeName" name="representativeName" />
+        </div>
+        <div class="mb-4">
+            <label for="companyName" class="form-label">Company Name</label>
+            <input type="text" class="form-control" id="companyName" name="companyName" />
+        </div>
+        <div class="mb-4">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" />
+        </div>
+        <div class="mb-4">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary float-end" style="overflow: auto; resize: none;">Send</button>
+    </form>
+</div>

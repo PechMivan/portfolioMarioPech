@@ -1,0 +1,146 @@
+﻿body{
+    font-family: 'Oswald', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.link-section ul {
+    font-size: 20px;
+}
+
+.link-section ul li {
+    margin-left: 15px;
+}
+
+.link-section ul a:hover {
+    text-decoration: underline;
+    text-decoration-color: #1363DF;
+    text-decoration-thickness: 5px;
+}
+
+.blue-line {
+    margin-right: 10px;
+    height: 10px;
+    width: 100px;
+    background-color: #1363DF;
+}
+
+#top-detail p {
+    margin:0;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+#pfp {
+    border-radius: 50%;
+}
+
+#main-content h1 span {
+    color: #1363DF;
+}
+
+#main-content h1 {
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+
+#main-content p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.btn-panel a {
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    text-decoration: none;
+    color: #1363DF;
+}
+
+.btn-panel a:hover {
+    border: 1px solid rgba(19, 99, 223, 0.5);
+    color: #1363DF;
+    background-color: #DFF6FF;
+}
+
+#contact-button {
+    background: #1363DF;
+    color: #DFF6FF;
+}
+
+#contact-button:hover {
+    background-color: #DFF6FF;
+    color: #1363DF;
+    border: 1px solid #1363DF;
+}
+
+.social-media a {
+    font-size: 25px;
+    margin-right: 15px;
+    color: GrayText;
+}
+
+.profile-header {
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 0 gray;
+    background-color: #1363DF;
+    color: white;
+    padding: 10px;
+}
+
+.profile-body {
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 0 gray;
+    border: 1px solid black;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+@media (min-width: 768px) {
+    .container-small {
+        width: 300px;
+    }
+
+    .container-medium {
+        width: 735px;
+    }
+
+    .container-large {
+        width: 970px;
+    }
+
+    #main-card {
+        height: 80vh;
+    }
+
+@media (min-width: 992px) {
+    .container-small {
+        width: 500px;
+    }
+
+    .container-medium {
+        width: 935px;
+    }
+
+    .container-large {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-small {
+        width: 700px;
+    }
+
+    .container-medium {
+        width: 1200px;
+    }
+
+    .container-large {
+        width: 1500px;
+    }
+}
+
+.container-small, .container-medium, .container-large {
+    max-width: 100%;
+}

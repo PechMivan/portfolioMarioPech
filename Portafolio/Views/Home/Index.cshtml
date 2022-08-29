@@ -1,0 +1,24 @@
+﻿@model HomeIndexViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container container-medium">
+
+    <partial name="_Presentation" />
+
+    <div class="row my-5">
+        <div class="col">
+            <div class="d-flex justify-content-center align-items-center" id="top-detail">
+                <div class="blue-line"></div>
+                <p class="mx-3">About me</p>
+                <div class="blue-line"></div>
+            </div>
+        </div>
+    </div>
+
+    <partial name="_ProfileInfo" />
+
+    <partial name="_ButtonPanel" />
+</div>
